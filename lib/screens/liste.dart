@@ -62,16 +62,4 @@ class _ListeScreen extends State<Liste>{
     );
   }
 }
-class Element {
-  String? nom;
-  String? domaine;
-  String? description;
-  Element({this.nom, this.domaine, this.description});
-  Element.fromJson(Map<String, dynamic> json){
-    nom = json['nom'];
-    domaine = json['domaine'];
-    description = json['description'];
-  }
 
-
-}
